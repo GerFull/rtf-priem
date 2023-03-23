@@ -1,0 +1,23 @@
+$rtf_blue:#005EB6;
+
+
+@mixin ProstoOne() {
+   font-family: 'Prosto One';
+   font-style: normal;
+   font-weight: 400;
+   line-height: 120%;
+}
+
+@mixin RobotoBold() {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   line-height: 130%;
+}
+
+@mixin RobotoRegular() {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   line-height: 130%;
+}

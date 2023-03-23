@@ -1,0 +1,24 @@
+@import "mixins";
+
+.menu {
+   background: #ffffff;
+   border-radius: 30px;
+   width: 100%;
+   padding: 16px 20px;
+   display: flex;
+   justify-content: space-between;
+
+   &__links{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap:20px;
+
+      &_item{
+         color: $rtf_blue;
+         @include RobotoBold();
+         font-size: 16px;
+         text-transform: uppercase;
+      }
+   }
+}
